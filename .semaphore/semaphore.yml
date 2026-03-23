@@ -11,7 +11,8 @@ blocks:
         - name: Make app
           commands:
             - checkout
-            - echo hello
+            - make app
+            - echo hello1
   - name: Tests
     task:
       prologue:
